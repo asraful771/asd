@@ -1,0 +1,89 @@
+/************************************
+        common css start
+   *********************************/  
+   ul{
+       list-style-type: none;
+   } 
+   a{
+        text-decoration:none !important;
+    }
+    .bg{
+        background:#186615;
+    }
+   /************************************
+        common css end
+   *********************************/ 
+  /******************************
+           header section start
+    ****************************/
+   .header{
+       display:flex;
+       justify-content:space-between;
+       align-items: center;
+       color:#fff;
+   }
+   .header .logo a{
+       color:#fff;
+       text-transform:uppercase;
+       
+   }
+   
+   .naved .menu{
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       margin-top:8px;
+       
+   }
+   .naved .menu li{
+       padding:0 8px;
+   }
+   .naved .menu li a{
+       color:#fff;
+       text-transform:uppercase;
+       position:relative;
+   }
+   .naved .menu li a::after{
+       content:"";
+       position:absolute;
+       width:20px;
+       height:1px;
+       background:#fff;
+       top:25px;
+       left:50%;
+       transition:.5s ease-in-out ;
+       transform: translate(-50%)scale(0);
+       -moz-transition:.5s ease-in-out ;
+       -ms-transition:.5s ease-in-out ;
+       -o-transition:.5s ease-in-out ;
+       -webkit-transform: translate(-50%)scale(0);
+       -moz-transform: translate(-50%)scale(0);
+       -ms-transform: translate(-50%)scale(0);
+       -o-transform: translate(-50%)scale(0);
+}
+.naved .menu li a:hover:after{
+    transform: translate(-50%)scale(1.8);
+    -webkit-transform: translate(-50%)scale(1.8);
+    -moz-transform: translate(-50%)scale(1.8);
+    -ms-transform: translate(-50%)scale(1.8);
+    -o-transform: translate(-50%)scale(1.8);
+}
+  /******************************
+           header section end
+    ****************************/ 
+
+    /********************************* 
+                hero section start
+     * **********************************/ 
+    .hero{
+        background: rgb(56, 55, 55) !important;
+    }
+     .img-box{
+        height:600px;
+        width:100%;
+       /* background-image:url(../img/profile.jpg);
+       background-size:cover; */
+    }
+     /********************************* 
+                hero section end
+     * **********************************/ 

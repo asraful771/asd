@@ -1,0 +1,31 @@
+/* responsive menu design start */
+@media screen and (max-width:768px){
+  .naved{
+    min-width: 100vw;
+      min-height:30vh;
+      position:relative;
+  }
+  .naved .hambarger{
+      position:absolute;
+      width:30px;
+      height:30px;
+      border:1px solid #fff;
+  }
+  .naved .menu{
+      position:absolute;
+      width: 100vw;
+      height:100vh;
+      top:30px;
+      left:0;
+      background: #186615;
+
+  }
+
+
+
+
+
+
+}
+
+/*  responsive menu end */
